@@ -1,0 +1,303 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+}
+.topNav a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.topNav a:visited {
+  color: white;
+}
+
+.topNav a:hover {
+  color: gray;
+  text-decoration:overline;
+  text-decoration-style:wavy;
+}
+.topNav a:active {
+    color: black;
+}
+
+.topNav{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #add8e6;
+}
+
+.mainTitleText{
+  display: flex;
+  justify-content:flex-start;
+  font-family: 'Roboto Condensed';font-size: 25px;
+}
+
+.mainTitleTextTwo{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto Condensed';font-size: 25px;
+}
+
+.AboutPage{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster Two'; font-size: 100px;
+}
+
+.description{
+  margin-top: 30px;
+  line-height: 190%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Sen'; font-size: 30px;
+
+}
+
+.ClaireWe{
+  margin-top: 60px;
+  line-height: 300%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Sen'; font-size: 20px;
+
+}
+
+.mainText{
+  margin-top:300px;
+  display: flex;
+  justify-content:center;
+  font-family: 'Dancing Script';font-size: 100px;font-style: bold;
+}
+
+.Pistachio{
+  position: absolute;
+  top: 515px; left: 470px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+
+.Chocolate{
+  position: absolute;
+  top: 550px; left: 850px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+
+.Twinkie{
+  position: absolute;
+  top: 550px; left: 1250px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+
+.Chocolate a:hover{
+  color:green;
+}
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Twinkie:hover .image{
+  opacity: 0.3;
+}
+
+.Twinkie:hover .middle {
+  opacity: 1;
+}
+
+.Pistachio:hover .image{
+  opacity: 0.3;
+}
+
+.Pistachio:hover .middle {
+  opacity: 1;
+}
+
+.Chocolate:hover .image{
+  opacity: 0.3;
+}
+
+.Chocolate:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #add8e6;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.HeaderTitle {
+  margin-top: 100px;
+  margin-right: 300px;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Lobster Two'; font-size: 100px;
+}
+
+.Pic {
+
+  position: absolute;
+  top: 300px; left: 200px;
+
+}
+
+.GifTime{
+
+    position: absolute;
+    top: 300px; left: 50px;
+}
+.GifTimeTwo{
+
+    position: absolute;
+    top: 300px; left: 1300px;
+}
+
+.Dropmenu {
+  font-family: 'Sen'; font-size: 19px;font-weight:bold;
+  position: absolute;
+  top: 450px; left: 1150px;
+}
+
+.EclairDescTwo {
+  margin-right: 370px;
+  margin-top: 20px;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Sen'; font-size: 30px;
+}
+
+.EclairDescThree {
+  margin-right: 550px;
+  margin-top: 30px;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Sen'; font-size: 30px; color:#add8e6;
+}
+
+.EclairDescP {
+  margin-right: 300px;
+  margin-top: 150px;
+  line-height: 190%;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Sen'; font-size: 20px;
+  text-align: center;
+}
+
+.EclairDescC {
+  margin-right: 280px;
+  margin-top: 150px;
+  line-height: 190%;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Sen'; font-size: 20px;
+  text-align: center;
+
+}
+.EclairDescT {
+  margin-right: 320px;
+  margin-top: 150px;
+  line-height: 190%;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Sen'; font-size: 20px;
+  text-align: center;
+
+}
+
+.ChocolateSmall {
+  position: absolute;
+  top: 100px; left: 35px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+
+.ChocolateSmall:hover .image{
+  opacity: 0.3;
+}
+
+.ChocolateSmall:hover .middle {
+  opacity: 1;
+}
+
+.TwinkieSmall{
+  position: absolute;
+  top: 200px; left: 30px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+
+.TwinkieSmall:hover .image{
+  opacity: 0.3;
+}
+
+.TwinkieSmall:hover .middle {
+  opacity: 1;
+}
+
+.PistachioSmall{
+  position: absolute;
+  top: 80px; left: 30px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+.PistachioSmall:hover .image{
+  opacity: 0.3;
+}
+
+.PistachioSmall:hover .middle {
+  opacity: 1;
+}
+
+
+.PistachioSmallTwo{
+  position: absolute;
+  top: 160px; left: 30px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 4px;
+}
+.PistachioSmallTwo:hover .image{
+  opacity: 0.3;
+}
+
+.PistachioSmallTwo:hover .middle {
+  opacity: 1;
+}
